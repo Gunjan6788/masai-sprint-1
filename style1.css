@@ -6,7 +6,7 @@
     padding:15px;
 }
 body{
-    background-image:url(/home/anuj/coding/sprint_1/resources/rail1.jpeg) ;
+    background-image:url("resources/rail1.jpeg") ;
     background-size: cover;
 }
 form{
@@ -30,6 +30,13 @@ input{
 .class1 input:nth-of-type(6){
     padding:10px;
     font-size: 20px;
+}
+
+.class1{
+    border: 2px solid black;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 @media(max-width:992px)
